@@ -1,8 +1,16 @@
 # 🏆 THE TIEBREAKER
 
-An AI-powered decision-making assistant that helps you make better decisions using structured analytical frameworks.
+> AI-powered decision-making assistant built with **React**, **TypeScript**, **Vercel Serverless Functions**, and the **Google Gemini API**.
 
-This is my **first public Vibe Coding project**, built with **Google AI Studio**, **React**, **TypeScript**, and the **Google Gemini API**.
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?logo=vercel)
+![Gemini](https://img.shields.io/badge/AI-Google%20Gemini-4285F4)
+
+This is my first public full-stack AI application. The project was initially bootstrapped with Google AI Studio and later evolved into a production-ready application powered by **React**, **TypeScript**, **Vercel Serverless Functions**, and the **Google Gemini API**.
+
+It showcases how AI-assisted development can accelerate software creation while emphasizing the engineering work required to transform an initial prototype into a production-ready application.
 
 ---
 
@@ -18,18 +26,33 @@ This is my **first public Vibe Coding project**, built with **Google AI Studio**
 
 ## 🚀 Tech Stack
 
+**Frontend**
 - React
 - TypeScript
 - Vite
-- Express.js
+
+**Backend**
+- Vercel Serverless Functions
+
+**AI**
 - Google Gemini API
+
+**Styling**
 - Tailwind CSS
 
 ---
 
-## 🌐 Live Demo
+## 🏗️ Architecture
 
-https://the-tiebreaker-five.vercel.app
+```text
+React + Vite
+       │
+       ▼
+Vercel Serverless Functions
+       │
+       ▼
+Google Gemini API
+```
 
 ---
 
@@ -40,13 +63,19 @@ https://the-tiebreaker-five.vercel.app
 
 ---
 
+## 🌐 Live Demo
+
+🔗 https://the-tiebreaker-five.vercel.app
+
+---
+
 ## 💡 How It Works
 
-1. Describe the decision you need to make.
-2. Add the available options.
-3. Choose an analysis framework.
-4. Let AI evaluate your choices.
-5. Receive an objective recommendation.
+1. Enter the decision you need help with.
+2. Add two or more possible options.
+3. Select an analytical framework (Pros & Cons, Comparison Matrix, or SWOT).
+4. The backend securely sends your request to the Google Gemini API.
+5. Review the AI-generated analysis and recommendation.
 
 ---
 
@@ -54,15 +83,25 @@ https://the-tiebreaker-five.vercel.app
 
 ### Prerequisites
 
-- Node.js
+- Node.js 18 or newer
+- A Google Gemini API key
 
 ### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/KarchMarek/The-Tiebreaker.git
+cd The-Tiebreaker
+```
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-Create a `.env.local` file and add your Gemini API key:
+Create a `.env.local` (or `.env`) file in the project root and add your Gemini API key:
 
 ```env
 GEMINI_API_KEY=YOUR_API_KEY
@@ -74,14 +113,32 @@ Start the development server:
 npm run dev
 ```
 
+Open your browser and visit:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 🔑 Environment Variables
+
+The project requires the following environment variable:
+
+| Variable | Description |
+|----------|-------------|
+| `GEMINI_API_KEY` | Your Google Gemini API key |
+
 ---
 
 ## 🎯 About This Project
 
-The Tiebreaker was created as my **first public Vibe Coding project** to explore how AI can help people make better decisions.
+The Tiebreaker is my first public full-stack AI application.
 
-The goal was to build a clean, practical application that transforms difficult choices into structured analyses using modern AI.
+The goal of this project was to explore how AI-assisted development and modern web technologies can be combined to build a practical decision-making tool.
+
+During development, the project evolved from an AI-generated prototype into a production-ready application deployed on Vercel with secure serverless backend functions powered by the Google Gemini API.
 
 ---
 
-⭐ If you like this project, feel free to star the repository.
+⭐ If you found this project interesting or useful, consider giving it a star on GitHub.
