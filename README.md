@@ -72,7 +72,7 @@ npm run dev
 
 ## 🎯 About This Project
 
-The Tiebreaker was created as my **first Vibe Coding project** to explore how AI can help people make better decisions.
+The Tiebreaker was created as my **first public Vibe Coding project** to explore how AI can help people make better decisions.
 
 The goal was to build a clean, practical application that transforms difficult choices into structured analyses using modern AI.
 
