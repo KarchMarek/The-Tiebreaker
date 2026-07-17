@@ -34,6 +34,12 @@ This is my **first public Vibe Coding project**, built with **Google AI Studio**
 
 ---
 
+## 🌐 Live Demo
+
+https://the-tiebreaker-five.vercel.app
+
+---
+
 ## 💡 How It Works
 
 1. Describe the decision you need to make.
