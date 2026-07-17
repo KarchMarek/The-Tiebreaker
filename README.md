@@ -29,7 +29,7 @@ This is my **first public Vibe Coding project**, built with **Google AI Studio**
 
 ## 📸 Preview
 <p align="center">
-  <img src="assets/The-Tiebreaker_Preview.png" alt="The Tiebreaker Preview" width="900">
+  <img src="assets/.aistudio/The-Tiebreaker_Preview.png" alt="The Tiebreaker Preview" width="900">
 </p>
 
 ---
