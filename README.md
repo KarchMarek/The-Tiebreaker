@@ -27,16 +27,16 @@ This is my **first public Vibe Coding project**, built with **Google AI Studio**
 
 ---
 
+## 🌐 Live Demo
+
+https://the-tiebreaker-five.vercel.app
+
+---
+
 ## 📸 Preview
 <p align="center">
   <img src="assets/.aistudio/The-Tiebreaker_Preview.png" alt="The Tiebreaker Preview" width="900">
 </p>
-
----
-
-## 🌐 Live Demo
-
-https://the-tiebreaker-five.vercel.app
 
 ---
 
