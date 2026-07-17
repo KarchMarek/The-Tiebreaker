@@ -2,7 +2,7 @@
 
 An AI-powered decision-making assistant that helps you make better decisions using structured analytical frameworks.
 
-This is my **first Vibe Coding project**, built with **Google AI Studio**, **React**, **TypeScript**, and the **Google Gemini API**.
+This is my **first public Vibe Coding project**, built with **Google AI Studio**, **React**, **TypeScript**, and the **Google Gemini API**.
 
 ---
 
